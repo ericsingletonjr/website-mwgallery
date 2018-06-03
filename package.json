@@ -1,0 +1,29 @@
+{
+  "name": "website-mwgallery",
+  "version": "1.0.0",
+  "description": "An image gallery, portfolio and artistic site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericsingletonjr/website-mwgallery.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "HTML",
+    "CSS",
+    "Templating"
+  ],
+  "author": "Eric Singleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericsingletonjr/website-mwgallery/issues"
+  },
+  "homepage": "https://github.com/ericsingletonjr/website-mwgallery#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  }
+}
