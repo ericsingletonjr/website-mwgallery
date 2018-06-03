@@ -1,0 +1,16 @@
+@import 'layout.css';
+
+@media screen and (min-width: 1200px) {
+    .wrapper{
+        width: 50%;
+        padding-left: 12vw;
+    }
+    .gallery{
+        float: left;
+        margin: 10px;
+        border: 1px solid black;
+        width: 20vw;
+        height: 35vh;
+    }
+
+}
