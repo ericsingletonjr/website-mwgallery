@@ -1,2 +1,44 @@
 @import 'base.css';
 @import 'modules.css';
+
+@media screen and (min-width: 1200px) {
+    header {
+        float: left;
+        position: fixed;
+        border: 1px solid black;
+        width: 15vw;
+        height: 98vh;
+    }
+    .container {
+        border: 1px solid black;
+        margin: 5px;
+        width: 66vw;
+        height: 48vh;
+    }
+    .container:first-child {
+        margin-top: 0px;
+    }
+    .container:last-child {
+        margin-top: 15px;
+    }
+    .sidebar {
+        float: right;
+        border: 1px solid black;
+        width: 15vw;
+        height: 98vh;
+    }
+    .current{
+        border: 1px solid black;
+        margin: 0 auto;
+        margin-top: 5px;
+        width: 95%;
+        height: 48vh;
+    }
+    .press{
+        border: 1px solid black;
+        margin: 0 auto;
+        margin-top: 5px;
+        width: 95%;
+        height: 48vh;
+    }
+}

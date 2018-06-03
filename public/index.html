@@ -4,10 +4,42 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="styles/layout.css" />
         <title>Home Page</title>
     </head>
     <body>
-        <h2>Home page stuff woo</h2>
+        <header>
+            <!-- Nav bar will be located on the left of the screen and fixed -->
+            <h1>Nav Bar</h1>
+            <ul>
+                <li>Home</li>
+                <li>Archives</li>
+                <li>Contact</li>
+            </ul>
+        </header>
+        <div class="wrapper">
+            <!-- This wrapper is to confine body of content to the center of the page -->
+            <section class="container gallery">
+            <!-- Used for image banner -->
+                <h1>Image banner</h1>
+            </section>
+            <section class="container info">
+                <h1>About/Artistic Statement</h1>
+            <!-- Used for the About and Artistic Statement -->
+            </section>
+        </div>
+        <section class="sidebar">
+            <!-- This section will be on the right side of the screen, fixed and house two containers -->
+            <div class="current">
+                <h1>Active Gallery</h1>
+                <!-- Container for the current Active gallery -->
+            </div>
+
+            <div class="press">
+                <h1>Press</h1>
+                <!-- Container for cycling reviews/press -->
+            </div>
+        </section>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js'></script>
         <script
             src='https://code.jquery.com/jquery-3.3.1.min.js'

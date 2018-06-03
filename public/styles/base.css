@@ -1,1 +1,10 @@
 @import '/vendors/normalize.css';
+
+@media screen and (min-width: 1200px) {
+    
+    .wrapper {
+        width: 840px;
+        float: left;
+        margin-left: 16vw;
+    }
+}
